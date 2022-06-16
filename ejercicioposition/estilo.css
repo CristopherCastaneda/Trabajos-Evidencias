@@ -1,0 +1,55 @@
+.cuadro1{
+    margin: 0 auto;
+    background-color: aqua;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+}
+.circulo1{
+    background: yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    
+}
+.circulo2{
+    background: yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    position: absolute;
+    bottom: 210px;
+    left: 15px;
+}
+
+.circulo3{
+    background: yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    position: absolute;
+    bottom: 15px;
+    left: 210px;
+}
+.circulo4{
+    background: yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    position: absolute;
+    bottom: 210px;
+    right: 15px;
+}
+.cuadro{
+    background: pink;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 215px;
+    left: 215px;
+}

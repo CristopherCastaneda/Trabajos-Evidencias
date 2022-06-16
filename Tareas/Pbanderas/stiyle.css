@@ -1,0 +1,50 @@
+
+.item2{
+    background-color: white;
+    width: 200px;
+    height: 130px;
+   
+}
+
+.item1{
+    background-color: blue;
+ width: 200px;
+ 
+ height: 130px;
+
+}
+.item3{
+    background-color: red;
+ width: 200px;
+ height: 130px;
+ 
+}
+.francia{
+   width: 500px;
+   height: 300px;
+   margin: 0 auto;
+   padding: 10 px ;
+
+}
+body{background-color: green;}
+
+.suecia{
+background-color: rgb(238, 255, 0);
+width: 500px;
+height: 300px;
+margin: 0 auto;
+justify-content: space-between;
+}
+.fra1{
+    background-color: rgb(38, 0, 255);
+    height: 20px;
+    justify-content: space-between;
+}
+.fra2{
+background-color: rgb(38, 0, 255);
+height: 20px;
+width: 150px;
+justify-content: space-between;
+}
+
+

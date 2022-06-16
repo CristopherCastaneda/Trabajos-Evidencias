@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+header{
+display: flex;
+position:static;
+background-color: black;
+justify-content: space-around;
+color: aliceblue;
+height: 60px;
+width: 100%;
+
+}
+
+.opciones{
+display: flex;
+background-color: rgba(107, 126, 141, 0.719);
+padding: 10px;
+justify-content: space-around;
+list-style: none;
+color: aliceblue;
+font-family: 'Kdam Thmor Pro', sans-serif;
+text-decoration: none;
+
+
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}

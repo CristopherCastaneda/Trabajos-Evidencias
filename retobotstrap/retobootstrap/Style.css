@@ -1,0 +1,25 @@
+.card-img-top {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card {
+  border-radius: 10px;
+  margin-right: 30px;
+  border-style: none;
+}
+
+.articules {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  background-color: #fff7f7;
+}
+
+header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=Style.css.map */

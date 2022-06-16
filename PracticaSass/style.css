@@ -1,0 +1,33 @@
+.card {
+  background: #377;
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin: 8px;
+}
+
+.card1 {
+  background: #377;
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: -5;
+}
+
+.container {
+  background: #aaaa;
+  height: 810px;
+}
+
+.container ul li {
+  padding: .5rem;
+}
+
+.container ul li .primary {
+  background: #377;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,351 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+h1.banner-title{
+    color: #4a25aa;
+    font-size: 40px;
+    text-align: left;
+}
+h2,
+h3 {
+    color: rgb(74, 37, 170);
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: #707790;
+    padding-top: 10px;
+}
+p.banner-p{
+    color: #4a25aa;
+    font-size: 24px;
+    text-align: left;
+}
+.main-cta{
+    background-color: #4a25aa;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.divider{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 5px;
+
+}
+
+header{
+    background-color: hsla(0,0%,100%,.7);
+    opciones
+    padding: 16px 32px;
+    /*opacity: .7; /* la claridad del objeto se mide del 0 al 1 */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+}
+header nav{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px; /*espaciado entre los objetos*/
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+header nav .logo{
+    max-width: 98px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    position: relative;
+}
+.banner img.banner-desktop{
+    display: none;
+}
+.banner img.banner-mobile{
+    opciones
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 160px;
+    padding-top: 40px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    gap:16px;
+}
+img{
+    max-width: 100%;
+}
+.opciones{
+    display: none; /*diseño de los objetovs*/
+}
+.hamburguesa{
+    width: 32px;  /* el ancho de los objetos*/
+    height: 32px; /* el alto de los objetos*/
+}
+ul.opciones{
+    list-style: none;
+    padding-top: 10px;
+}
+.opc{
+    display: inline-block;
+    margin-right: 10px;
+}
+.opc a{
+    color: #323C61;
+    text-decoration: none; /*quitarle la decoracion del texto oh el subarraydo */
+    font-size: 14px; /*tamaño de las letras */
+}
+
+
+.conteniner3 {
+    display: flex;
+    color: rgb(50, 60, 97);
+    opciones
+    font-family: Moderat, sans-serif;
+    font-size: 14px;
+    width: auto;
+    padding-left: 30px;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+}
+.Grid1 {
+    margin-bottom: 30px;
+}
+
+.conteiner4 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+}
+
+.conteniner3 .conteiner4 p {
+    color: rgb(50, 60, 97);
+    font-family: Moderat, sans-serif;
+    text-align: center;
+}
+
+section.ctas-container, .conteniner3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.ctas-container h2 {
+    color: #323c61;
+}
+
+section.ctas-container h2, .conteniner3 h2 {
+    margin-bottom: 60px;
+}
+
+div.ctas {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div.ctas .cta {
+    border: 2px solid #f2f4f8;
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.ctas .cta div.image {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+div.ctas .cta div.image img {
+    width: 100%;
+}
+
+div.ctas .cta div.button {
+    background-color: #f2f4f8;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.btn-cta {
+    margin-top: 40px;
+    padding: 12px 0;
+    border-radius: 99px;
+    background-color: #4a25aa;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    opciones
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.a-conoce {
+    margin-top: 15px;
+    opciones
+    color: #4a25aa;
+    padding: 5px 0;
+}
+
+footer {
+    width: 100%;
+    padding-top: 40px;
+}
+
+footer .footer-nav {
+    margin: 0 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+footer a.logo {
+    margin-bottom: 40px;
+    opciones
+}
+
+footer a.logo img {
+    height: 32px;
+    max-width: 100%;
+}
+
+footer .footer-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4a25aa;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a.footer-link {
+    opciones
+    margin-bottom: 10px;
+    color: #323c61;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer .copy {
+    color: #323c61;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*Responsive*/
+@media only screen and (min-width:768px) {
+    div.ctas {
+        flex-direction: row;
+        justify-content: center;
+    }   
+
+    .conteniner5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .Grid1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    footer {
+        padding-top: 80px;
+    }
+
+    footer .footer-nav {
+        margin: 0 auto;
+    }
+
+    footer .footer-nav {
+        flex-direction: row;
+    }
+
+    footer .footer-nav div.ul-nav,
+    footer .footer-nav .logo {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .opciones{
+        display:block;
+    }
+    .hamburguesa{
+        display: none;
+    }
+    .banner img.banner-desktop{
+        opciones
+    }
+    .banner img.banner-mobile{
+        display: none;
+    }
+    .content{
+        align-items: flex-start;
+        margin: 0 auto;
+        left: 10%;
+    }
+    h1.banner-title{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    div.ctas {
+        gap: 40px;
+    }
+}
